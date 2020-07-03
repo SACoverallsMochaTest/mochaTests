@@ -22,9 +22,4 @@ describe('Simple Mocha Tests', () => {
   it('.addNumbers should add to numbers together correctly', async () => {
     should(await classToTest.asyncTimes(A,B)).equal(A*B);
   });
-
-  // Only testing one branch of the if statement on purpose to check code coverage tool in coveralls.io
-  it('.divideWithIf should divide the first number by the second number correctly', () => {
-    should(classToTest.divideWithIf(A,B)).equal(A/B);
-  });
 })
