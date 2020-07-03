@@ -33,3 +33,5 @@ jobs:
     # Sending data to Coveralls.io
     - name: Coveralls GitHub Action
       uses: coverallsapp/github-action@v1.1.1
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
