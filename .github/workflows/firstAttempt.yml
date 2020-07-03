@@ -26,10 +26,12 @@ jobs:
     - name: Building the TS project
       run: npm run build
 
+  runTests:
     # Runs a set of commands using the runners shell
     - name: Running Mocha Tests
       run: npm run test
     
+  sendToCoveralls:
     # Sending data to Coveralls.io
     - name: Coveralls GitHub Action
       uses: coverallsapp/github-action@v1.1.1
