@@ -7,7 +7,7 @@
       "outDir": "dist/src",
       "baseUrl": "./src",
       "allowJs": true,
-      "types": ["node", "mocha"],
+      "types": ["node", "mocha", "should"],
       "preserveConstEnums": true,
       "sourceMap": true
   },
