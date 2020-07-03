@@ -1,6 +1,6 @@
 import { ClassToTest } from './lib/classToTest';
 
-const tester = new Tester();
+const tester = new ClassToTest();
 const A = 10;
 const B = 5;
 

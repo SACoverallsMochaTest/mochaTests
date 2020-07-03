@@ -4,7 +4,7 @@
       "experimentalDecorators" : true,
       "emitDecoratorMetadata": true,
       "module": "commonjs",
-      "outDir": "dist/src",
+      "outDir": "dist",
       "baseUrl": "./src",
       "allowJs": true,
       "types": ["node", "mocha", "should"],
@@ -12,10 +12,10 @@
       "sourceMap": true
   },
   "include": [
-      "src/**/*"
+      "src/**/*",
+      "tests/**/*",
   ],
   "exclude": [
       "node_modules",
-      "**/*.spec.ts"
   ]
 }
