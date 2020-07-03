@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha dist/tests/**/*.spec.js ",
-    "test:watch": "./node_modules/mocha/bin/mocha -w --require ts-node/register tests/**/*.spec.ts",
+    "test": "nyc ./node_modules/mocha/bin/mocha --require ts-node/register tests/**/*.spec.ts",
     "start": "ts-node src/index.ts",
     "build": "tsc"
   },
