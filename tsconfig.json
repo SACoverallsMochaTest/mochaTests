@@ -7,7 +7,7 @@
       "outDir": "dist/src",
       "baseUrl": "./src",
       "allowJs": true,
-      "types": ["node", "jest"],
+      "types": ["node", "mocha"],
       "preserveConstEnums": true,
       "sourceMap": true
   },
