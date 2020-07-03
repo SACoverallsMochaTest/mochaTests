@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+      "target": "es6",
+      "experimentalDecorators" : true,
+      "emitDecoratorMetadata": true,
+      "module": "commonjs",
+      "outDir": "dist/src",
+      "baseUrl": "./src",
+      "allowJs": true,
+      "types": ["node", "jest"],
+      "preserveConstEnums": true,
+      "sourceMap": true
+  },
+  "include": [
+      "src/**/*"
+  ],
+  "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+  ]
+}
